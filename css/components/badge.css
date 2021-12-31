@@ -17,3 +17,14 @@
   left: 20px;
   bottom: 17px;
 }
+
+.badge--exclamation {
+  width: 15px;
+  height: 15px;
+  background-color: inherit;
+  color: tomato;
+  border: 1px solid tomato;
+  position: absolute;
+  left: 125px;
+  top: 7px;
+}

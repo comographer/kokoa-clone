@@ -48,6 +48,10 @@
   color: var(--gray);
 }
 
+.user-component__subtitle-container {
+  display: flex;
+  position: relative;
+}
 .user-component__time {
   margin-bottom: 10px;
   display: block;
