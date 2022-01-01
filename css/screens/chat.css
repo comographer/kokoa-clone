@@ -1,3 +1,15 @@
 #chat-screen {
   background-color: #abc1d1;
+  height: 1000vh;
+}
+
+#chat-screen .alt-header,
+.status-bar {
+  position: fixed;
+  top: 0;
+  background-color: inherit;
+}
+
+.main-chat {
+  margin-top: 130px;
 }
