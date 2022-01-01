@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats | Kokoa Clone</title>
+    <title>Settings | Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,53 +23,18 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">Settings</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span
-          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+        <span class="screen-header__icons--relative"
+          ><div class="badge badge--cog"></div>
+          <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
         ></span>
       </div>
     </header>
 
-    <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://pbs.twimg.com/profile_images/1190757042639769600/IqSPcrWe_400x400.jpg"
-            class="user-component__avatar"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Slyvanas</h4>
-            <h6 class="user-component__subtitle">
-              Join us willingly or be made to serve!
-            </h6>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <span class="user-component__time">18:17</span>
-          <span class="badge">1</span>
-        </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://res.cloudinary.com/heroespatches/image/upload/v1483417095/hero/malfurion.png"
-            class="user-component__avatar"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Malfurion</h4>
-            <h6 class="user-component__subtitle">Elune be with you</h6>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <span class="user-component__time">14:22</span>
-          <span class="badge">2</span>
-        </div>
-      </div>
-    </main>
+    <main class="main-screen more-screen"></main>
 
     <nav class="nav">
       <ul class="nav__list">
@@ -81,7 +46,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <div class="nav__notification badge">1</div>
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
